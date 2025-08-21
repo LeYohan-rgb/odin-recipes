@@ -1,0 +1,174 @@
+
+
+@font-face {
+    font-family: 'Viking_Font';
+    src: url("../../font/king_castle.otf") format("opentype"),
+         url("../../font/king_castle.ttf") format("truetype");
+}
+
+.home_p {
+    font-family: 'Viking_Font';
+    position: fixed;
+    font-size: 50px;
+    top: 15px;
+    left: 21px;
+    color: white;
+    background-color: rgb(170,138,87);
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+}
+
+.home_p:hover {
+    text-decoration: none;
+}
+
+html, body {
+    margin: 0; /* remove default browser spacing */
+    height: 100%; /* let the color fill full height */
+    background-color: rgb(56, 56, 56); /* change this to any color */
+}
+
+.main_bg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1150px;
+    width: 600px;
+    background: linear-gradient(to bottom, rgb(170, 138, 87) 65%, rgb(112, 91, 58) 35%);
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.main_image_bg {
+    position: fixed;
+    width: 1375px;
+    height: auto;
+
+}
+
+.main_title {
+    font-family: 'Viking_Font';
+}
+
+.homepage_title {
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    top: 175px;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.shrimp_img {
+    width: auto;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid black;
+    border-radius: 20px;
+    top: 10px;
+}
+
+.menu {
+    position: absolute;
+    top: 325px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    width: 500px;
+    height: 370px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.about_section {
+    position: absolute;
+    top: 795px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    width: 500px;
+    height: 315px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.menu_title {
+    position: absolute;
+    font-size: 40px;
+    top: 5px;
+    left: 10px;
+    margin: 0;
+    border-bottom: 2px solid black;
+}
+
+.ingredients_title {
+    padding: 0 280px 0 0;
+}
+
+.steps_title {
+    padding: 0 385px 0 0;
+}
+
+.menu_link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+}
+
+.about_desc {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+
+.m_1 {
+    top: 45px;
+}
+
+.m_2 {
+    top: 75px;
+}
+
+.m_3 {
+    top: 105px;
+}
+
+.m_4 {
+    top: 135px;
+}
+
+.m_5 {
+    top: 165px;
+}
+
+.m_6 {
+    top: 195px;
+}
+
+.m_7 {
+    top: 225px;
+}
+
+.m_8 {
+    top: 255px;
+}
+
+.m_9 {
+    top: 285px;
+}
+
+.m_10 {
+    top: 315px;
+}

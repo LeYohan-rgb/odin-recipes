@@ -1,0 +1,152 @@
+
+
+@font-face {
+    font-family: 'Viking_Font';
+    src: url("font/king_castle.otf") format("opentype"),
+         url("font/king_castle.ttf") format("truetype");
+}
+
+html, body {
+    margin: 0; /* remove default browser spacing */
+    height: 100%; /* let the color fill full height */
+    background-color: rgb(56, 56, 56); /* change this to any color */
+}
+
+.main_bg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1000px;
+    width: 600px;
+    background: linear-gradient(to bottom, rgb(170, 138, 87) 63%, rgb(112, 91, 58) 37%);
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.main_image_bg {
+    position: fixed;
+    width: 1375px;
+    height: auto;
+
+}
+
+.main_title {
+    font-family: 'Viking_Font';
+}
+
+.homepage_title {
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    top: 175px;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.odin_img {
+    width: auto;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu {
+    position: absolute;
+    top: 325px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.about_section {
+    position: absolute;
+    top: 675px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.menu_title {
+    position: absolute;
+    font-size: 40px;
+    top: 5px;
+    left: 10px;
+    margin: 0;
+    border-bottom: 2px solid black;
+}
+
+.menu_r_title {
+    padding: 0 390px 0 0;
+}
+
+.about_title {
+    padding: 0 370px 0 0;
+}
+
+.menu_link {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left: 90px;
+}
+
+.about_desc {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+
+.menu_link:visited {
+    text-decoration: none;
+}
+
+.m_1 {
+    top: 75px;
+}
+
+.m_2 {
+    top: 135px;
+}
+
+.m_3 {
+    top: 195px;
+}
+
+.menu_food_icon {
+    position: absolute;
+    left: 15px;
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.i_1 {
+    top: 60px;
+}
+
+.i_2 {
+    top: 120px;
+}
+
+.i_3 {
+    top: 180px;
+}
